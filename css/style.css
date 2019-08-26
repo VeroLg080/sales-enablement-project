@@ -1,0 +1,85 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+main {
+  flex: 1 0 auto;
+}
+
+.mb-xl {
+  margin-bottom: 30px;
+}
+
+.mlr-sm {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.tabs .tab a {
+  color: white;
+  background-color: green;
+  text-transform: none !important 
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: white;
+  color: black !important;
+  text-transform: none !important 
+}
+
+.tabs .tab a:focus span,
+.tabs .tab a:focus.active span {
+  color: black !important;
+  text-transform: none !important 
+}
+
+.tabs .tab a:hover,
+.tabs .tab a:active,
+.tabs .tab a.active {
+  color: black !important;
+  text-transform: none !important 
+}
+
+.tabs .tab a:hover span,
+.tabs .tab a:active span,
+.tabs .tab a.active span {
+  color: black !important;
+  text-transform: none !important 
+}
+
+.tabs .indicator {
+  background-color: white;
+  text-transform: none !important
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mtb-sm {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
